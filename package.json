@@ -1,0 +1,22 @@
+{
+  "name": "drag-drop-advanced-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server -c configs/my-bs-config.json",
+    "sass:watch": "sass ./api/style.scss ./api/style.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cMatheusBRibeiro/drag-drop-advanced-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cMatheusBRibeiro/drag-drop-advanced-api/issues"
+  },
+  "homepage": "https://github.com/cMatheusBRibeiro/drag-drop-advanced-api#readme"
+}

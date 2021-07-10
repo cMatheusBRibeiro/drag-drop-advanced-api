@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #CCC;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.principal {
+  width: 100%;
+  max-width: 400px;
+  background: #FFF;
+  height: 600px;
+}
+.principal .row {
+  border: 1px solid #999;
+  height: 33.33333%;
+  display: flex;
+  flex-wrap: no-wrap;
+  flex-direction: row;
+  align-items: stretch;
+}
+.principal .col {
+  border: 1px solid #444;
+  margin: 15px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+}
+
+.dragging {
+  opacity: 0.5;
+}
+
+/*# sourceMappingURL=style.css.map */
